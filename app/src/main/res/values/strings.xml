@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_change_units">Change Units</string>
+    <string name="symbol_search">Symbol Search</string>
+    <string name="content_test">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="false">FB</string>
+    <string name="input_prefill"></string>
+    <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+    <string name="no_matching_stock_error">No stock found matching %1$s</string>
+
+
+    //Stock Details Activity
+    <string name="lowest_historic_bid_label">Low:</string>
+    //Label for lowest historic bid price for the period
+    <string name="highest_historic_bid_label">High:</string>
+    //Label for highest historic bid price for the period
+    <string name="details_page_title">%1$s - last %2$s days</string>
+    //Page title detailing Stock symbol and how many days of historic data is being displayed - Param1 = Stock Symbol, Param2 = number of days
+    <string name="details_page_date_range">%1$s - %2$s</string>
+    // Graph footer displaying start and end date of graphed data - Param1 = start date, Param2 = end date
+    <string name="details_page_network_error">Error returning historic stock prices</string>
+    <string name="details_page_unknown_stock_symbol_error">Unknown Stock Symbol</string>
+
+
+    <string name="title_activity_my_settings">MySettingsActivity</string>
+    <string name="warning_stock_already_saved">This stock is already saved!</string>
+    <string name="warning_working_offline">Working Offline: Current Bid Prices Are Not Available</string>
+    <string name="cd_add_new_stock">Add new stock symbol</string> // Content description for main page FAB button
+
+
+
+    <string-array name="pref_historic_data_labels">
+        <item>7 days</item>
+        <item>14 days</item>
+        <item>30 days</item>
+        <item>60 days</item>
+    </string-array>
+    <string-array name="pref_historic_data_values" translatable="false">
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string name="pref_historic_data_default_value" translatable="false">30</string>
+    <string name="historic_pref_title">Historic Period</string>
+    <string name="historic_pref_summary">Number of days to gather historic data</string>
+</resources>
